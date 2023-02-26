@@ -1,0 +1,132 @@
+.container{
+    width: 29rem;
+    height: 10rem;
+    position: absolute;
+    left: 9rem;
+    top: 10rem;
+    color: white;
+    line-height: 1.5rem;
+   /*  border: 2px solid red; */
+}
+
+
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    /* color: red; */
+}
+
+.button{
+    margin-top: 10px;
+    color: #FF5722;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 240px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* line-height: 95.19%; */
+}
+
+
+@media (min-width: 320px) and (max-width: 424px){
+    .container{
+        width: 90%;
+        height: 12rem;
+        position: absolute;
+        left: 0rem;
+        margin: 1rem 1rem;
+        top: 15rem;
+        color: white;
+        line-height: 1.5rem;
+        text-align: center;
+        border: 2px solid red;
+    }
+    
+    
+    
+    .title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        /* color: red; */
+    }
+    
+    .button{
+        width: 290px;
+        height: 55px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 95.19%;
+        margin: auto;
+    }
+    .container .tex2{
+        display: none;
+    }
+
+    .container .text1{
+        margin-bottom: 1.5rem;
+    }
+
+}
+@media (min-width: 425px) and (max-width: 767px){
+    .container{
+        width: 90%;
+        height: 12rem;
+        position: absolute;
+        left: 0rem;
+        margin: 1rem 1rem;
+        top: 15rem;
+        color: white;
+        line-height: 1.5rem;
+        text-align: center;
+        border: 2px solid red;
+    }
+    
+    
+    
+    .title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        /* color: red; */
+    }
+    
+    .button{
+        width: 290px;
+        height: 55px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 95.19%;
+        margin: auto;
+    }
+    .container .tex2{
+        display: none;
+    }
+
+    .container .text1{
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 931px){
+
+}
+
+@media (min-width: 932px) and (max-width: 1024px){
+
+}
