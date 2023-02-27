@@ -1,0 +1,141 @@
+.form{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+.title-form{
+  width:25rem;
+  text-align: center;
+ /*  border: 1px solid red; */
+}
+
+
+
+.form-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+
+fieldset{
+  width: 50%;
+  height: 3rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.909);
+}
+
+.tituloForm{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 0.8rem;
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: center;
+  color:  #F97316 ;
+}
+
+input{
+  width: 90%;
+  height: 3vh;
+  border-radius: 10px;
+  border: none;
+}
+
+.butonSinginup{
+  width: 40%;
+  height: 2.5rem;
+  margin: 0.5rem;
+  background-color: #F97316;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 1rem;
+  margin-left: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:  white ;
+
+}
+.botongoogle{
+  width: 40%;
+  height: 2.5rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 0.8rem;
+  margin-left: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.75) ;
+  border: 1px solid grey;
+}
+
+.checkRegister{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 0.7rem;
+  color: gray;
+}
+
+.check{
+  width:15px;
+  height:15px;
+}
+
+.login{
+  text-decoration: none;
+  color: #F97316;
+}
+
+h4{
+  margin: 0.5rem;
+}
+
+@media (max-width:900px){
+  .form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
