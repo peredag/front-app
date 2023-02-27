@@ -1,0 +1,83 @@
+.container-hero{
+    width: 100%;
+   /*  height: 40vh; */
+   /*  border: 1px solid red; */
+}
+
+.container-1{
+    height: 31vh;
+    border-radius: 6px;
+    margin: 3rem 4rem 0;
+    background-color: #FF5722;
+   /*  border: 1px solid red; */
+}
+
+.img-1{
+    width: 10rem;
+    height: 13rem;
+    /* object-fit: contain; */
+    object-fit: cover;
+    position: absolute;
+    top: 25rem;
+    left: 9rem;
+}
+
+.img-2{
+
+    width: 9rem;
+    height: 14rem;
+    /* object-fit: contain; */
+    object-fit: cover;
+    position: absolute;
+    top: 24rem;
+    left: 30rem;
+    border-radius: 6px;
+}
+
+.text-container{
+    width: 25rem;
+    position: absolute;
+    top: 28rem;
+    left: 45rem;
+    color: #FFFFFF;
+}
+
+.text-container .text-1{
+    font-size: 1rem;
+   /*  color: red; */
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.text-container .text-2{
+    font-size: 0.9rem;
+    /* color: red; */
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+    .container-1{
+        display: none;
+    }
+
+
+
+
+
+}
+@media (min-width: 425px) and (max-width: 767px){
+
+    .container-1{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 931px){
+    .container-1{
+        display: none;
+    }
+}
+
+@media (min-width: 932px) and (max-width: 1024px){
+    .container-1{
+        display: none;
+    }
+}

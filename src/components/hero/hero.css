@@ -1,0 +1,34 @@
+.background-hero{
+  width: 100%;
+  height: 60vh;
+ /*  object-fit: contain; */
+ object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+  .background-hero{
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px){
+
+  .background-hero{
+    width: 100%;
+    height: 100vh;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 931px){
+
+  .background-hero{
+    width: 100%;
+    height: 100vh;
+  }
+  
+}
+
+@media (min-width: 932px) and (max-width: 1024px){
+
+}
